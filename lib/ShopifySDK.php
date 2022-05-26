@@ -70,6 +70,7 @@ use PHPShopify\Exception\SdkException;
  * @property-read AbandonedCheckout $AbandonedCheckout
  * @property-read AccessScope $AccessScope
  * @property-read ApiDeprecations $ApiDeprecations
+ * @property-read ApiPermissions $ApiPermissions
  * @property-read ApplicationCharge $ApplicationCharge
  * @property-read Blog $Blog
  * @property-read CarrierService $CarrierService
@@ -118,6 +119,7 @@ use PHPShopify\Exception\SdkException;
  * @method AbandonedCheckout AbandonedCheckout(integer $id = null)
  * @method AccessScope AccessScope()
  * @method ApiDeprecations ApiDeprecations()
+ * @method ApiPermissions ApiPermissions()
  * @method ApplicationCharge ApplicationCharge(integer $id = null)
  * @method Blog Blog(integer $id = null)
  * @method CarrierService CarrierService(integer $id = null)
@@ -175,6 +177,7 @@ class ShopifySDK
         'AbandonedCheckout',
         'AccessScope',
         'ApiDeprecations',
+        'ApiPermissions',
         'ApplicationCharge',
         'Blog',
         'CarrierService',
