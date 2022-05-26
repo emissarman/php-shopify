@@ -13,7 +13,7 @@ class ApiPermissions extends ShopifyResource
     /**
      * @inheritDoc
      */
-    protected $resourceKey = 'api_permissions';
+    protected $resourceKey = 'api_permission';
 
     /**
      * @inheritDoc
