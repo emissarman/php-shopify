@@ -18,7 +18,7 @@ class ApiPermissions extends ShopifyResource
     /**
      * @inheritDoc
      */
-    protected $customGetActions = array (
+    protected $customDeleteActions = array (
       'current'
     );
 }
